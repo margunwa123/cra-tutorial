@@ -6,7 +6,7 @@ import { Button, Form, FormControl } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar>
+    <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/">Cra-tutorial</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
